@@ -5,4 +5,11 @@
   font-weight: normal;
 }
 
+@font-face {
+  src: url("../fonts/Inter-ExtraBold.woff2"),
+  url("../fonts/Inter-ExtraBold.woff");
+  font-family: 'Inter';
+  font-weight: 900;
+}
+
 
