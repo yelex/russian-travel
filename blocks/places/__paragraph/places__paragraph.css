@@ -1,6 +1,6 @@
 .places__paragraph{
   margin: 0;
-  width: calc(100%-500px);
+  max-width: calc(100% - 500px);
   font-size: 18px;
   line-height: 163%;
   color: #fff;
