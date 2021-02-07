@@ -1,0 +1,11 @@
+.places__paragraph{
+  margin: 0;
+  max-width: calc(100%-500px);
+  font-size: 18px;
+  line-height: 163%;
+  color: #fff;
+}
+
+.places__paragraph:not(:first-of-type){
+  margin-top: 26px;
+}
