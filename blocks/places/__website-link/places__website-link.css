@@ -4,4 +4,12 @@
   color: #fff;
   font-size: 18px;
   line-height: 1.22;
+  transition: opacity 0.3s linear;
 }
+
+.places__website-link:hover {
+  opacity: 0.8;
+}
+
+
+

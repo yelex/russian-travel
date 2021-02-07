@@ -5,8 +5,13 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.12;
+  transition: opacity 0.3s linear;
 }
 
 .footer__link:last-of-type {
   margin: 0;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
 }
