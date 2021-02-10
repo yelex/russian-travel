@@ -1,3 +1,9 @@
 .intro__column {
   max-width: 690px;
 }
+
+@media screen and (max-width: 1023px){
+  .intro__column {
+    max-width: 720px;
+  }
+}

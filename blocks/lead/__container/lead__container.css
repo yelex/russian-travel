@@ -1,0 +1,15 @@
+.lead__container{
+  margin: 0 auto;
+  padding: 56px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 984px;
+}
+
+@media screen and (max-width: 1279px){
+  .lead__container {
+    padding: 48px 0 0 0;
+    max-width: 928px;
+  }
+}

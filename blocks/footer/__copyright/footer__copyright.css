@@ -6,3 +6,14 @@
   color: #fff;
   text-align: right;
 }
+
+@media screen and (max-width: 320px){
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 1;
+    width: calc(100% - 16px);
+    margin: 0 0 24px 16px;
+    text-align: start;
+  }
+
+}

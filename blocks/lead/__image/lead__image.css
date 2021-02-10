@@ -1,9 +1,3 @@
 .lead__image {
-  max-height: 615px;
-}
-
-@media screen and (max-width: 1280px){
-  .lead__image {
-    max-height: 580px;
-  }
+  max-width: 100%;
 }

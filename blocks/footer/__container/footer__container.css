@@ -1,6 +1,7 @@
 .footer__container {
   display: flex;
   justify-content: flex-start;
+  flex-wrap: wrap;
   max-width: 1184px;
   margin: 92px auto 0;
   padding-bottom: 24px;

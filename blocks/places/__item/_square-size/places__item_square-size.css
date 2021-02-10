@@ -2,3 +2,25 @@
   width: 460px;
   height: 460px;
 }
+
+@media screen and (max-width: 1024px) {
+  .places__item_square-size {
+    width: 440px;
+    height: 440px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__item_square-size {
+    width: 340px;
+    height: 340px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__item_square-size {
+    max-width: 320px;
+    height: 320px;
+    margin: 0 0 32px 0;
+  }
+}

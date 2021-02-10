@@ -10,3 +10,38 @@
 .places__place:first-of-type {
   margin: 92px auto 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .places__place {
+    column-gap: 32px;
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__place {
+    column-gap: 28px;
+    max-width: 720px;
+    margin: 73px auto 0;
+    row-gap: 48px;
+  }
+
+  .places__place:first-of-type {
+    margin: 88px auto 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__place {
+    display: inline-block;
+    /* flex-direction: column; */
+    /* grid-template-columns: 1fr; */
+    max-width: 100%;
+    margin: 50px auto 0;
+    /* row-gap: 32px; */
+  }
+
+  .places__place:first-of-type {
+    margin: 64px auto 0;
+  }
+}
