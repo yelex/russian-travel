@@ -17,10 +17,10 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .places__item_square-size {
-    max-width: 320px;
-    height: 320px;
+    min-width: 320px;
+    min-height: 320px;
     margin: 0 0 32px 0;
   }
 }

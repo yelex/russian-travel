@@ -20,8 +20,16 @@
   .photo-grid__container {
     margin: 88px auto 0;
     max-width: 720px;
-    grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 16px) / 2), 1fr));
     gap: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid__container {
+    max-width: 590px;
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 12px) / 2), 1fr));
+    gap: 12px;
   }
 }
 
