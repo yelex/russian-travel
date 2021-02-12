@@ -3,7 +3,19 @@
   justify-content: flex-start;
   flex-wrap: wrap;
   max-width: 1184px;
-  margin: 92px auto 0;
+  margin: 92px 48px 0;
   padding-bottom: 24px;
   color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__container {
+    margin: 88px auto 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__container {
+    margin: 64px auto 0;
+  }
 }
