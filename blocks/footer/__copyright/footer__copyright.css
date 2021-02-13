@@ -1,6 +1,5 @@
 .footer__copyright {
   margin: 0 0 0 auto;
-  justify-self: flex-end;
   font-size: 14px;
   line-height: 1.14;
   color: #fff;
@@ -11,8 +10,7 @@
   .footer__copyright {
     font-size: 14px;
     line-height: 1;
-    width: calc(100% - 16px);
-    margin: 0 0 24px 16px;
+    margin: 16px 0 0 16px;
     text-align: start;
   }
 

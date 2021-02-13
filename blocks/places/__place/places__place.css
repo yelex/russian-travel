@@ -25,7 +25,6 @@
     max-width: 720px;
     margin: 73px auto 0;
     grid-template-columns: 340px auto;
-    row-gap: 48px;
   }
 
   .places__place:first-of-type {
@@ -38,6 +37,7 @@
   .places__place {
     grid-template-columns: 1fr;
     row-gap: 32px;
+    margin: 50px auto 0;
   }
 
   .places__place:first-of-type {

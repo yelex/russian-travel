@@ -13,4 +13,8 @@
   .places__paragraph {
     font-size: 16px;
   }
+
+  .places__paragraph:not(:first-of-type){
+    margin-top: 25px;
+  }
 }

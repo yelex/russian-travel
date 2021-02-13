@@ -39,10 +39,10 @@
 @import url('../blocks/places/__website-link/places__website-link.css');
 
 @import url('../blocks/cover/__link/cover__link.css');
-@import url('../blocks/cover/__container/cover__container.css');
 @import url('../blocks/cover/__title/cover__title.css');
 @import url('../blocks/cover/__subtitle/cover__subtitle.css');
 
 @import url('../blocks/footer/__container/footer__container.css');
+@import url('../blocks/footer/__items/footer__items.css');
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
