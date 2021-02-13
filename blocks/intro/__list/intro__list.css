@@ -7,4 +7,11 @@
   list-style-type: none;
   font-size: 12px;
   line-height: 1.5;
+  max-width: 690px;
+}
+
+@media screen and (max-width: 1024px){
+  .intro__list {
+    max-width: 720px;
+  }
 }

@@ -1,5 +1,5 @@
 .cover__title {
-  margin: 245px 0 0 0;
+  margin: 245px auto 0;
   font-size: 72px;
   line-height: 76px;
   font-family: 'Inter';
@@ -12,13 +12,13 @@
 
 @media screen and (max-width: 1024px){
   .cover__title {
-    margin: 195px 0 0 0;
+    margin: 195px auto 0;
   }
 }
 
 @media screen and (max-width: 768px){
   .cover__title {
-    margin: 115px 0 0 0;
+    margin: 115px auto 0;
   }
 }
 
