@@ -4,7 +4,7 @@
 # Технологии, используемые в проекте
 - HTML
 - CSS (Flexbox + Grid)
-- БЭМ
+- Наименование папок и классов по БЭМ
 
 # Демо
 https://yelex.github.io/russian-travel/
